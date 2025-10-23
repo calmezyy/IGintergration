@@ -1,0 +1,5 @@
+# Keep text files consistent (LF) and stop the noisy warnings
+*.js     text eol=lf
+*.json   text eol=lf
+*.mcmeta text eol=lf
+*.md     text eol=lf
