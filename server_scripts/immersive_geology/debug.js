@@ -1,0 +1,1 @@
+global.ORE_DEBUG = true

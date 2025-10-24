@@ -1,31 +1,40 @@
 // kubejs/server_scripts/ig_to_gtceu_drops.js
-// Immersive Geology -> GTCEu raw items (block-break fallback, ignores loot tables)
+// Immersive Geology -> GTCEu raw items (fallback when IG doesn't provide loot tables)
 
 if (global.ENABLE_IG_TO_GTCEU) {
   console.info('[ig_to_gtceu_drops] Enabled');
 
-  var ORE_REGEX = /^(?:immersivegeology:)(?:tfc_|minecraft_)?(poor|normal|rich)_ore_block_([a-z0-9_]+)_[a-z0-9_]+$/;
+  // immersivegeology:(tfc_|minecraft_)?(poor|normal|rich)_ore_block_<ore>_<rock>
+  const ORE_REGEX_GTCEU =
+    /^(?:immersivegeology:)(?:tfc_|minecraft_)?(poor|normal|rich)_ore_block_([a-z0-9_]+)_[a-z0-9_]+$/;
 
   BlockEvents.broken(event => {
-    var id = event.block.id;
-    if (id.indexOf('immersivegeology:') !== 0) return;
+    const id = String(event.block.id);
+    if (!id.startsWith('immersivegeology:')) return;
 
-    var m = ORE_REGEX.exec(id);
+    const m = ORE_REGEX_GTCEU.exec(id);
     if (!m) return;
 
-    var grade = m[1];
-    var ore   = m[2];
-    var item  = global.getGtceuRawItemId(grade, ore);
-    if (!item) {
-      if (global.ORE_DEBUG) console.warn('[ig_to_gtceu_drops] Unmapped ' + ore + ' from ' + id);
+    const grade = m[1];
+    const ore   = m[2];
+    const drop  = global.getGtceuRawItemId ? global.getGtceuRawItemId(grade, ore) : null;
+    if (!drop) {
+      if (global.ORE_DEBUG) {
+        console.warn('[ig_to_gtceu_drops] Unmapped ore "' + ore + '" from ' + id);
+        if (event.player) event.player.tell('[GTCEu map missing] ' + ore);
+      }
       return;
     }
 
     event.block.set('minecraft:air');
-    event.block.popItem(item);
+    event.block.popItem(drop);
     event.cancel();
 
-    if (global.ORE_DEBUG) console.info('[ig_to_gtceu_drops] ' + id + ' -> ' + item);
+    if (global.ORE_DEBUG) {
+      const msg = '[ig_to_gtceu_drops] ' + id + ' -> ' + drop;
+      console.info(msg);
+      if (event.player) event.player.tell(msg);
+    }
   });
 } else {
   console.info('[ig_to_gtceu_drops] Disabled by toggle');

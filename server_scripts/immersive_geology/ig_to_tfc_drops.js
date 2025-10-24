@@ -1,41 +1,58 @@
 // kubejs/server_scripts/ig_to_tfc_drops.js
-// Immersive Geology -> TFC/Firmalife drops (covers tfc_* and minecraft_*)
+// Immersive Geology ore BLOCK -> TFC ore ITEM drops
+// Block: immersivegeology:<family>_<grade>_ore_block_<ore>_<rock>
+// Drop : tfc:ore/<grade>_<ore>
 
-if (global.ENABLE_IG_TO_TFC) {
+if (!global.ENABLE_IG_TO_TFC) {
+  console.info('[ig_to_tfc_drops] Disabled by toggle');
+} else {
   console.info('[ig_to_tfc_drops] Enabled');
 
-  ServerEvents.blockLootTables(event => {
-    var grades   = global.ORE_GRADES;
-    var families = global.IG_FAMILIES;
-    var tfcRocks = global.TFC_ROCKS;
-    var mcRocks  = global.MC_ROCKS;
-    var ores     = global.IG_TFC_ORES;
+  // Fallback builder for TFC item ids
+  function tfcItemId(grade, ore) {
+    return 'tfc:ore/' + grade + '_' + ore;
+  }
 
-    var rules = 0, fam, rocks, g, o, r, igBlock, tfcItem;
+  ServerEvents.blockLootTables(event => {
+    var grades   = global.ORE_GRADES;    // ['poor','normal','rich']
+    var families = global.IG_FAMILIES;   // ['tfc','minecraft']
+    var tfcRocks = global.TFC_ROCKS;     // rock names
+    var mcRocks  = global.MC_ROCKS;      // vanilla stone names
+    var ores     = global.IG_TFC_ORES;   // TFC-style ore keys (hematite, etc.)
+
+    var rules = 0;
+
     for (var fi = 0; fi < families.length; fi++) {
-      fam   = families[fi];
-      rocks = (fam === 'tfc') ? tfcRocks : mcRocks;
+      var family = families[fi];
+      var rocks  = (family === 'tfc') ? tfcRocks : mcRocks;
 
       for (var gi = 0; gi < grades.length; gi++) {
-        g = grades[gi];
+        var grade = grades[gi];
+
         for (var oi = 0; oi < ores.length; oi++) {
-          o = ores[oi];
+          var ore = ores[oi];
+
           for (var ri = 0; ri < rocks.length; ri++) {
-            r = rocks[ri];
+            var rock = rocks[ri];
 
-            // immersivegeology:<fam>_<grade>_ore_block_<ore>_<rock>
-            igBlock = 'immersivegeology:' + fam + '_' + g + '_ore_block_' + o + '_' + r;
-            tfcItem = global.getTfcStyleItemId(g, o);
+            // Exact IG block id
+            var igBlockId = 'immersivegeology:' + family + '_' + grade + '_ore_block_' + ore + '_' + rock;
 
-            event.addSimpleBlock(igBlock, tfcItem);
+            // Use global helper if present, otherwise fallback
+            var dropItemId;
+            if (global.getTfcStyleItemId) {
+              dropItemId = global.getTfcStyleItemId(grade, ore);
+            } else {
+              dropItemId = tfcItemId(grade, ore);
+            }
+
+            event.addSimpleBlock(igBlockId, dropItemId);
             rules++;
           }
         }
       }
     }
 
-    console.info('[ig_to_tfc_drops] Added ' + rules + ' IG → TFC/Firmalife drop overrides');
+    console.info('[ig_to_tfc_drops] Added ' + rules + ' IG -> TFC drop overrides (format enforced)');
   });
-} else {
-  console.info('[ig_to_tfc_drops] Disabled by toggle');
 }
