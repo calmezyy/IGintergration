@@ -1,4 +1,4 @@
-// kubejs/server_scripts/immersive_geology/ig_to_gt_shared_ores.js
+// kubejs/server_scripts/immersive_geology/ig_to_tfg_shared_ores.js
 // TFC + GregTech swaps in ONE file.
 // - Natives (gold/silver/copper) => TFC native_* drops (all families/grades/rocks)
 // - For the listed ores, prefer TFC ore if it exists; otherwise use GTCEu raw_*.
