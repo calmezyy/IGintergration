@@ -81,17 +81,6 @@ LootJS.modifiers(function (event) {
   function itemExists(id) {
     try { return !Item.of(id).isEmpty(); } catch (e) { return false; }
   }
-  
-  function gtRawItemId(grade, ore) {
-    switch (grade) {
-      case 'poor':
-        return 'gtceu:poor_raw_' + ore;
-      case 'rich':
-        return 'gtceu:rich_raw_' + ore;
-      default:
-        return 'gtceu:raw_' + ore;
-    }
-  }
 
   for (var fj = 0; fj < families.length; fj++) {
     var family = families[fj];
@@ -105,7 +94,7 @@ LootJS.modifiers(function (event) {
 
         // Priority: TFC ore if present; else GT raw
         var tfcDrop = tfcItemId(grade, ore);
-         var drop    = itemExists(tfcDrop) ? tfcDrop : gtRawItemId(grade, ore);
+        var drop    = itemExists(tfcDrop) ? tfcDrop : ('gtceu:raw_' + ore);
 
         for (var rj = 0; rj < rocks.length; rj++) {
           var rock = rocks[rj];
