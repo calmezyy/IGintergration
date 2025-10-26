@@ -28,7 +28,7 @@ ServerEvents.recipes(function (event) {
       "ingredients": [
         { "item": "immersivegeology:dirty_crushed_ore_" + ore }
       ],
-      "result": { "item": "immersivegeology:crushed_ore_" + ore },
+      "result": { "item": "immersivegeology:partial_crushed_ore_" + ore },
       "time": 100
     }).id("tfg:ae_transform/dirty_" + ore);
   }

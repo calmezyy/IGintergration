@@ -8,20 +8,34 @@ ServerEvents.recipes(event => {
     'anatase','wolframite'
   ];
 
+	for (var i = 0; i < ores.length; i++) {
+    event.remove({ id: "immersivegeology:crafting/wash_dirty_crushed_" + ores[i] });
+	}
+
   ores.forEach(ore => {
     event.shapeless(
       `immersivegeology:dirty_crushed_ore_${ore}`,
       [
-        `kubejs:partial_dirty_crushed_ore_${ore}`,
-        `kubejs:partial_dirty_crushed_ore_${ore}`
+        `immersivegeology:partial_dirty_crushed_ore_${ore}`,
+        `immersivegeology:partial_dirty_crushed_ore_${ore}`
       ]
-    ).id(`immersivegeology:crafting/dirty_from_partial_${ore}`);
+    ).id(`immersivegeology:crafting/dirty_from_partial_dirty_${ore}`);
+  });
+  
+   ores.forEach(ore => {
+    event.shapeless(
+      `immersivegeology:crushed_ore_${ore}`,
+      [
+        `immersivegeology:partial_crushed_ore_${ore}`,
+        `immersivegeology:partial_crushed_ore_${ore}`
+      ]
+    ).id(`immersivegeology:crafting/crushed_from_partial_${ore}`);
   });
   
     // 2 poor → 1 partial
   ores.forEach(ore => {
     event.shapeless(
-      Item.of(`kubejs:partial_dirty_crushed_ore_${ore}`, 1),
+      Item.of(`immersivegeology:partial_dirty_crushed_ore_${ore}`, 1),
       [
         `immersivegeology:poor_ore_${ore}`,
         `immersivegeology:poor_ore_${ore}`,
@@ -33,7 +47,7 @@ ServerEvents.recipes(event => {
   // 2 normal → 2 partial
   ores.forEach(ore => {
     event.shapeless(
-      Item.of(`kubejs:partial_dirty_crushed_ore_${ore}`, 2),
+      Item.of(`immersivegeology:partial_dirty_crushed_ore_${ore}`, 2),
       [
         `immersivegeology:normal_ore_${ore}`,
         `immersivegeology:normal_ore_${ore}`,
@@ -45,7 +59,7 @@ ServerEvents.recipes(event => {
   // 2 rich → 3 partial
   ores.forEach(ore => {
     event.shapeless(
-      Item.of(`kubejs:partial_dirty_crushed_ore_${ore}`, 3),
+      Item.of(`immersivegeology:partial_dirty_crushed_ore_${ore}`, 3),
       [
         `immersivegeology:rich_ore_${ore}`,
         `immersivegeology:rich_ore_${ore}`,
