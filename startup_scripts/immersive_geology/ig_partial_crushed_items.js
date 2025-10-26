@@ -14,12 +14,12 @@ StartupEvents.registry('item', event => {
     // Partial Dirty Crushed Ore
     event.create(`immersivegeology:partial_dirty_crushed_ore_${ore}`)
       .texture(`immersivegeology:item/dirty_crushed_ore_${ore}`) // reuse texture for now
-      .displayName(`Partially Dirty Crushed ${proper} Ore`);
+      .displayName(`Partial Dirty Crushed ${proper} Ore`);
 
     // Partial Clean Crushed Ore
     event.create(`immersivegeology:partial_crushed_ore_${ore}`)
       .texture(`immersivegeology:item/crushed_ore_${ore}`) // reuse clean texture for now
-      .displayName(`Partially Crushed ${proper} Ore`);
+      .displayName(`Partial Crushed ${proper} Ore`);
   });
 
   console.info('[Immersive Geology] Registered partial dirty & clean crushed ores.');

@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
   // --- Poor ores → 1 partial dirty crushed ---
   ores.forEach(ore => {
     event.recipes.tfc.quern(
-      `kubejs:partial_dirty_crushed_ore_${ore}`,
+      `immersivegeology:partial_dirty_crushed_ore_${ore}`,
       `immersivegeology:poor_ore_${ore}`
     ).id(`immersivegeology:quern/poor_partial_dirty_crushed_ore_${ore}`);
   });
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
   // --- Normal ores → 2 partial dirty crushed ---
   ores.forEach(ore => {
     event.recipes.tfc.quern(
-      Item.of(`kubejs:partial_dirty_crushed_ore_${ore}`, 2),
+      Item.of(`immersivegeology:partial_dirty_crushed_ore_${ore}`, 2),
       `immersivegeology:normal_ore_${ore}`
     ).id(`immersivegeology:quern/normal_partial_dirty_crushed_ore_${ore}`);
   });
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
   // --- Rich ores → 3 partial dirty crushed ---
   ores.forEach(ore => {
     event.recipes.tfc.quern(
-      Item.of(`kubejs:partial_dirty_crushed_ore_${ore}`, 3),
+      Item.of(`immersivegeology:partial_dirty_crushed_ore_${ore}`, 3),
       `immersivegeology:rich_ore_${ore}`
     ).id(`immersivegeology:quern/rich_partial_dirty_crushed_ore_${ore}`);
   });
