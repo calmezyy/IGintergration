@@ -1,11 +1,13 @@
 // kubejs/server_scripts/immersive_geology/ie_crusher_recipes.js
 // IE Crusher recipes:
-// - #forge:raw_materials → 1x crushed + 33% + 16.5% secondaries
-// - #forge:rich_raw_materials → 1x crushed + 100% + 33% + 16.5% secondaries
-
+// - #forge:raw_materials         → 1x crushed + 33% + 16.5% secondaries
+// - #forge:rich_raw_materials    → 1x crushed + 100% + 33% + 16.5% secondaries
+// - #forge:poor_raw_materials    → 1x crushed + 33% secondary
 ServerEvents.recipes(function (event) {
   var rawIds  = Ingredient.of('#forge:raw_materials').getItemIds().toArray();
   var richIds = Ingredient.of('#forge:rich_raw_materials').getItemIds().toArray();
+  var poorIds = Ingredient.of('#forge:poor_raw_materials').getItemIds().toArray();
+
   var alias   = { aluminum: 'aluminium', nether_quartz: 'quartz' };
   var added = 0, skipped = 0;
 
@@ -20,9 +22,14 @@ ServerEvents.recipes(function (event) {
       if (ns === 'immersiveengineering' && alias[b]) b = alias[b];
       return b;
     }
-    if (path.indexOf('rich_raw_') === 0) return path.substring('rich_raw_'.length);
-    var m = path.match(/^ore\/normal_(.+)$/);
-    if (m) return m[1];
+    if (path.indexOf('rich_raw_') === 0)  return path.substring('rich_raw_'.length);
+    if (path.indexOf('poor_raw_') === 0)  return path.substring('poor_raw_'.length);
+
+    var m;
+    m = path.match(/^ore\/normal_(.+)$/); if (m) return m[1];
+    m = path.match(/^ore\/rich_(.+)$/);   if (m) return m[1];
+    m = path.match(/^ore\/poor_(.+)$/);   if (m) return m[1];
+
     return null;
   }
 
@@ -32,25 +39,32 @@ ServerEvents.recipes(function (event) {
     return null;
   }
 
-  function addCrusher(inId, base, isRich) {
+  function addCrusher(inId, base, grade) {
     var outId = findCrushed(base);
     if (!outId) return false;
 
-    var secs = isRich
-      ? [
-          { chance: 0.33,   output: { item: outId } }, 
-          { chance: 0.165,  output: { item: outId } },
-          { chance: 0.165, output: { item: outId } }
-        ]
-      : [
-          { chance: 0.33,  output: { item: outId } },
-          { chance: 0.165, output: { item: outId } }
-        ];
+    var secs;
+    if (grade === 'rich') {
+      secs = [
+        { chance: 0.33,  output: { item: outId } },
+        { chance: 0.165, output: { item: outId } },
+        { chance: 0.165, output: { item: outId } }
+      ];
+    } else if (grade === 'poor') {
+      secs = [
+        { chance: 0.33,  output: { item: outId } }
+      ];
+    } else {
+      secs = [
+        { chance: 0.33,  output: { item: outId } },
+        { chance: 0.165, output: { item: outId } }
+      ];
+    }
 
     event.custom({
       type: 'immersiveengineering:crusher',
       input:  { item: inId },
-      result: { item: outId, count: 1 },              // always 1x now
+      result: { item: outId, count: 1 },
       secondaries: secs,
       energy: 2400
     }).id('kubejs:ie_crusher/' + base + '_from_' + String(inId).replace(/[:/]/g, '_'));
@@ -63,7 +77,7 @@ ServerEvents.recipes(function (event) {
     if (!Item.exists(inId)) { skipped++; continue; }
     var base = getBase(inId);
     if (!base) { skipped++; continue; }
-    if (addCrusher(inId, base, false)) added++; else skipped++;
+    if (addCrusher(inId, base, 'normal')) added++; else skipped++;
   }
 
   // rich
@@ -72,7 +86,16 @@ ServerEvents.recipes(function (event) {
     if (!Item.exists(inId2)) { skipped++; continue; }
     var base2 = getBase(inId2);
     if (!base2) { skipped++; continue; }
-    if (addCrusher(inId2, base2, true)) added++; else skipped++;
+    if (addCrusher(inId2, base2, 'rich')) added++; else skipped++;
+  }
+
+  // poor
+  for (var k = 0; k < poorIds.length; k++) {
+    var inId3 = String(poorIds[k]);
+    if (!Item.exists(inId3)) { skipped++; continue; }
+    var base3 = getBase(inId3);
+    if (!base3) { skipped++; continue; }
+    if (addCrusher(inId3, base3, 'poor')) added++; else skipped++;
   }
 
   console.info('[ie] IE Crusher recipes added=' + added + ', skipped=' + skipped);
