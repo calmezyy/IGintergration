@@ -1,34 +1,48 @@
 // kubejs/server_scripts/immersive_geology/ie_crusher_recipes.js
 // IE Crusher recipes:
 // - #forge:raw_materials         → 1x crushed + 33% + 16.5% secondaries
-// - #forge:rich_raw_materials    → 1x crushed + 100% + 33% + 16.5% secondaries
+// - #forge:rich_raw_materials    → 1x crushed + 100% + 33% + 16.5% + 16.5% secondaries
 // - #forge:poor_raw_materials    → 1x crushed + 33% secondary
 ServerEvents.recipes(function (event) {
   var rawIds  = Ingredient.of('#forge:raw_materials').getItemIds().toArray();
   var richIds = Ingredient.of('#forge:rich_raw_materials').getItemIds().toArray();
   var poorIds = Ingredient.of('#forge:poor_raw_materials').getItemIds().toArray();
 
-  var alias   = { aluminum: 'aluminium', nether_quartz: 'quartz' };
+  // base-name aliases
+  var alias = {
+    aluminum: 'aluminium',
+    nether_quartz: 'quartz',
+    native_gold: 'gold',
+    native_copper: 'copper',
+    native_silver: 'silver',
+    limonite: 'yellow_limonite' // GTCEu naming
+  };
+
+  function normalize(base) {
+    if (!base) return base;
+    if (alias[base]) return alias[base];
+    if (base.indexOf('native_') === 0) return base.substring(7);
+    return base;
+  }
+
   var added = 0, skipped = 0;
 
   function getBase(idStr) {
-    var parts = String(idStr).split(':');
-    if (parts.length < 2) return null;
-    var ns = parts[0], path = parts[1];
+    var parts = String(idStr).split(':'), ns = parts[0], path = parts[1];
     if (!path) return null;
 
     if (path.indexOf('raw_') === 0) {
       var b = path.substring(4);
       if (ns === 'immersiveengineering' && alias[b]) b = alias[b];
-      return b;
+      return normalize(b);
     }
-    if (path.indexOf('rich_raw_') === 0)  return path.substring('rich_raw_'.length);
-    if (path.indexOf('poor_raw_') === 0)  return path.substring('poor_raw_'.length);
+    if (path.indexOf('rich_raw_') === 0)  return normalize(path.substring('rich_raw_'.length));
+    if (path.indexOf('poor_raw_') === 0)  return normalize(path.substring('poor_raw_'.length));
 
     var m;
-    m = path.match(/^ore\/normal_(.+)$/); if (m) return m[1];
-    m = path.match(/^ore\/rich_(.+)$/);   if (m) return m[1];
-    m = path.match(/^ore\/poor_(.+)$/);   if (m) return m[1];
+    m = path.match(/^ore\/normal_(.+)$/); if (m) return normalize(m[1]);
+    m = path.match(/^ore\/rich_(.+)$/);   if (m) return normalize(m[1]);
+    m = path.match(/^ore\/poor_(.+)$/);   if (m) return normalize(m[1]);
 
     return null;
   }
