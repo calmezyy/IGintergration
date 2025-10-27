@@ -4,6 +4,10 @@
 // - #forge:rich_raw_materials    → 1x crushed + 100% + 33% + 16.5% + 16.5% secondaries
 // - #forge:poor_raw_materials    → 1x crushed + 33% secondary
 ServerEvents.recipes(function (event) {
+	
+	// remove default IE Crusher recipe for gold (raw_ore_gold)
+    event.remove({ id: 'immersiveengineering:crusher/raw_ore_gold' });
+	
   var rawIds  = Ingredient.of('#forge:raw_materials').getItemIds().toArray();
   var richIds = Ingredient.of('#forge:rich_raw_materials').getItemIds().toArray();
   var poorIds = Ingredient.of('#forge:poor_raw_materials').getItemIds().toArray();
