@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_fullers_earth_dust"
+  },
+  "result": {
+    "item": "gtceu:fullers_earth_dust"
+  },
+  "time": 200
+}

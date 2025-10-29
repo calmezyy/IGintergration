@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_barite_dust"
+  },
+  "result": {
+    "item": "gtceu:barite_dust"
+  },
+  "time": 200
+}

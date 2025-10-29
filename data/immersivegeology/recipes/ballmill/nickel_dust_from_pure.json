@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_nickel_dust"
+  },
+  "result": {
+    "item": "gtceu:nickel_dust"
+  },
+  "time": 200
+}

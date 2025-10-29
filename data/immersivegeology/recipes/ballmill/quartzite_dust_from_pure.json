@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_quartzite_dust"
+  },
+  "result": {
+    "item": "gtceu:quartzite_dust"
+  },
+  "time": 200
+}

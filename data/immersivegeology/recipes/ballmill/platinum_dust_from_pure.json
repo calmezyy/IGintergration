@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_platinum_dust"
+  },
+  "result": {
+    "item": "gtceu:platinum_dust"
+  },
+  "time": 200
+}

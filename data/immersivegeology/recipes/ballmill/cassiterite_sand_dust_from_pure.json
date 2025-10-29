@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_cassiterite_sand_dust"
+  },
+  "result": {
+    "item": "gtceu:cassiterite_sand_dust"
+  },
+  "time": 200
+}

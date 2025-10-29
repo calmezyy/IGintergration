@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_calorite_dust"
+  },
+  "result": {
+    "item": "gtceu:calorite_dust"
+  },
+  "time": 200
+}

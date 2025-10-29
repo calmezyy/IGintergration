@@ -1,0 +1,7 @@
+{
+	"type":"immersiveengineering:crusher",
+	"energy":3200,
+	"input":{"item":"gtceu:purified_sphalerite_ore"},
+	"result":{"count":1,"item":"gtceu:pure_sphalerite_dust"},
+	"secondaries":[]
+}

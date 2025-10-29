@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_pyrochlore_dust"
+  },
+  "result": {
+    "item": "gtceu:pyrochlore_dust"
+  },
+  "time": 200
+}

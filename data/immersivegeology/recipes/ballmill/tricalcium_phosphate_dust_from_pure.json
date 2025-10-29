@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_tricalcium_phosphate_dust"
+  },
+  "result": {
+    "item": "gtceu:tricalcium_phosphate_dust"
+  },
+  "time": 200
+}
