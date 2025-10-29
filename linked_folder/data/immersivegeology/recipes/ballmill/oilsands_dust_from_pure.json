@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_oilsands_dust"
+  },
+  "result": {
+    "item": "gtceu:oilsands_dust"
+  },
+  "time": 200
+}

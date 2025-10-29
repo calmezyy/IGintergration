@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_aluminium_dust"
+  },
+  "result": {
+    "item": "gtceu:aluminium_dust"
+  },
+  "time": 200
+}

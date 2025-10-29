@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "gtceu:purified_rock_salt_ore"
+  },
+  "result": {
+    "count": 1,
+    "item": "gtceu:pure_rock_salt_dust"
+  },
+  "secondaries": []
+}

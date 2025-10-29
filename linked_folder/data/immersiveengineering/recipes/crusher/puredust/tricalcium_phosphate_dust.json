@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "gtceu:purified_tricalcium_phosphate_ore"
+  },
+  "result": {
+    "count": 1,
+    "item": "gtceu:pure_tricalcium_phosphate_dust"
+  },
+  "secondaries": []
+}
