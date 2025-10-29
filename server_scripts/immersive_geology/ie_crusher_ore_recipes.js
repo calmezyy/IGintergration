@@ -1,4 +1,4 @@
-// kubejs/server_scripts/immersive_geology/ie_crusher_recipes.js
+// kubejs/server_scripts/immersive_geology/ie_crusher_ore_recipes.js
 // IE Crusher recipes:
 // - #forge:raw_materials         → 1x crushed + 33% + 16.5% secondaries
 // - #forge:rich_raw_materials    → 1x crushed + 100% + 33% + 16.5% + 16.5% secondaries

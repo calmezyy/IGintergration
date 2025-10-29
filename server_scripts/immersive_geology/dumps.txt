@@ -80,3 +80,149 @@ gtceu:crushed_sulfur_ore, gtceu:crushed_talc_ore, gtceu:crushed_tantalite_ore, g
 gtceu:crushed_tin_ore, gtceu:crushed_topaz_ore, gtceu:crushed_tricalcium_phosphate_ore, gtceu:crushed_trona_ore, gtceu:crushed_tungstate_ore,
 gtceu:crushed_uraninite_ore, gtceu:crushed_vanadium_magnetite_ore, gtceu:crushed_wulfenite_ore, gtceu:crushed_yellow_garnet_ore,
 gtceu:crushed_yellow_limonite_ore, gtceu:crushed_zeolite_ore.
+
+✨ forge:pure_dusts (116 entries)
+
+gtceu:pure_almandine_dust, gtceu:pure_aluminium_dust, gtceu:pure_alunite_dust, gtceu:pure_amethyst_dust, gtceu:pure_apatite_dust,
+gtceu:pure_armalcolite_dust, gtceu:pure_asbestos_dust, gtceu:pure_barite_dust, gtceu:pure_basaltic_mineral_sand_dust, gtceu:pure_bastnasite_dust,
+gtceu:pure_bauxite_dust, gtceu:pure_bentonite_dust, gtceu:pure_beryllium_dust, gtceu:pure_bismuth_dust, gtceu:pure_blue_topaz_dust,
+gtceu:pure_borax_dust, gtceu:pure_bornite_dust, gtceu:pure_calcite_dust, gtceu:pure_calorite_dust, gtceu:pure_cassiterite_dust,
+gtceu:pure_cassiterite_sand_dust, gtceu:pure_certus_quartz_dust, gtceu:pure_chalcocite_dust, gtceu:pure_chalcopyrite_dust, gtceu:pure_chromite_dust,
+gtceu:pure_cinnabar_dust, gtceu:pure_coal_dust, gtceu:pure_cobalt_dust, gtceu:pure_cobaltite_dust, gtceu:pure_cooperite_dust,
+gtceu:pure_copper_dust, gtceu:pure_desh_dust, gtceu:pure_diamond_dust, gtceu:pure_diatomite_dust, gtceu:pure_electrotine_dust,
+gtceu:pure_emerald_dust, gtceu:pure_etrium_dust, gtceu:pure_fullers_earth_dust, gtceu:pure_galena_dust, gtceu:pure_garnet_sand_dust,
+gtceu:pure_garnierite_dust, gtceu:pure_glauconite_sand_dust, gtceu:pure_goethite_dust, gtceu:pure_gold_dust, gtceu:pure_granitic_mineral_sand_dust,
+gtceu:pure_graphite_dust, gtceu:pure_green_sapphire_dust, gtceu:pure_grossular_dust, gtceu:pure_gypsum_dust, gtceu:pure_hematite_dust,
+gtceu:pure_ilmenite_dust, gtceu:pure_iron_dust, gtceu:pure_kyanite_dust, gtceu:pure_lapis_dust, gtceu:pure_lazurite_dust,
+gtceu:pure_lead_dust, gtceu:pure_lepidolite_dust, gtceu:pure_lithium_dust, gtceu:pure_magnesite_dust, gtceu:pure_magnetite_dust,
+gtceu:pure_malachite_dust, gtceu:pure_mica_dust, gtceu:pure_molybdenite_dust, gtceu:pure_molybdenum_dust, gtceu:pure_monazite_dust,
+gtceu:pure_naquadah_dust, gtceu:pure_neodymium_dust, gtceu:pure_nether_quartz_dust, gtceu:pure_nickel_dust, gtceu:pure_oilsands_dust,
+gtceu:pure_olivine_dust, gtceu:pure_opal_dust, gtceu:pure_palladium_dust, gtceu:pure_pentlandite_dust, gtceu:pure_pitchblende_dust,
+gtceu:pure_platinum_dust, gtceu:pure_pollucite_dust, gtceu:pure_powellite_dust, gtceu:pure_pyrite_dust, gtceu:pure_pyrochlore_dust,
+gtceu:pure_pyrolusite_dust, gtceu:pure_pyrope_dust, gtceu:pure_quartzite_dust, gtceu:pure_realgar_dust, gtceu:pure_red_garnet_dust,
+gtceu:pure_redstone_dust, gtceu:pure_rock_salt_dust, gtceu:pure_rose_quartz_dust, gtceu:pure_ruby_dust, gtceu:pure_salt_dust,
+gtceu:pure_saltpeter_dust, gtceu:pure_sapphire_dust, gtceu:pure_scheelite_dust, gtceu:pure_silver_dust, gtceu:pure_soapstone_dust,
+gtceu:pure_sodalite_dust, gtceu:pure_spessartine_dust, gtceu:pure_sphalerite_dust, gtceu:pure_spodumene_dust, gtceu:pure_stibnite_dust,
+gtceu:pure_sulfur_dust, gtceu:pure_talc_dust, gtceu:pure_tantalite_dust, gtceu:pure_tetrahedrite_dust, gtceu:pure_thorium_dust,
+gtceu:pure_tin_dust, gtceu:pure_topaz_dust, gtceu:pure_tricalcium_phosphate_dust, gtceu:pure_trona_dust, gtceu:pure_tungstate_dust,
+gtceu:pure_uraninite_dust, gtceu:pure_vanadium_magnetite_dust, gtceu:pure_wulfenite_dust, gtceu:pure_yellow_garnet_dust,
+gtceu:pure_yellow_limonite_dust, gtceu:pure_zeolite_dust.
+
+forge:dusts (only those from pure_dusts
+
+ae2:certus_quartz_dust
+gtceu:almandine_dust
+gtceu:aluminium_dust
+gtceu:alunite_dust
+gtceu:amethyst_dust
+gtceu:apatite_dust
+gtceu:armalcolite_dust
+gtceu:asbestos_dust
+gtceu:barite_dust
+gtceu:basaltic_mineral_sand_dust
+gtceu:bastnasite_dust
+gtceu:bauxite_dust
+gtceu:bentonite_dust
+gtceu:beryllium_dust
+gtceu:bismuth_dust
+gtceu:blue_topaz_dust
+gtceu:borax_dust
+gtceu:bornite_dust
+gtceu:calcite_dust
+gtceu:calorite_dust
+gtceu:cassiterite_dust
+gtceu:cassiterite_sand_dust
+gtceu:chalcocite_dust
+gtceu:chalcopyrite_dust
+gtceu:chromite_dust
+gtceu:cinnabar_dust
+gtceu:coal_dust
+gtceu:cobalt_dust
+gtceu:cobaltite_dust
+gtceu:cooperite_dust
+gtceu:copper_dust
+gtceu:desh_dust
+gtceu:diamond_dust
+gtceu:diatomite_dust
+gtceu:electrotine_dust
+gtceu:emerald_dust
+gtceu:etrium_dust
+gtceu:fullers_earth_dust
+gtceu:galena_dust
+gtceu:garnet_sand_dust
+gtceu:garnierite_dust
+gtceu:glauconite_sand_dust
+gtceu:goethite_dust
+gtceu:gold_dust
+gtceu:granitic_mineral_sand_dust
+gtceu:graphite_dust
+gtceu:green_sapphire_dust
+gtceu:grossular_dust
+gtceu:gypsum_dust
+gtceu:hematite_dust
+gtceu:ilmenite_dust
+gtceu:iron_dust
+gtceu:kyanite_dust
+gtceu:lapis_dust
+gtceu:lazurite_dust
+gtceu:lead_dust
+gtceu:lepidolite_dust
+gtceu:lithium_dust
+gtceu:magnesite_dust
+gtceu:magnetite_dust
+gtceu:malachite_dust
+gtceu:mica_dust
+gtceu:molybdenite_dust
+gtceu:molybdenum_dust
+gtceu:monazite_dust
+gtceu:naquadah_dust
+gtceu:neodymium_dust
+gtceu:nether_quartz_dust
+gtceu:nickel_dust
+gtceu:oilsands_dust
+gtceu:olivine_dust
+gtceu:opal_dust
+gtceu:palladium_dust
+gtceu:pentlandite_dust
+gtceu:pitchblende_dust
+gtceu:platinum_dust
+gtceu:pollucite_dust
+gtceu:powellite_dust
+gtceu:pyrite_dust
+gtceu:pyrochlore_dust
+gtceu:pyrolusite_dust
+gtceu:pyrope_dust
+gtceu:quartzite_dust
+gtceu:realgar_dust
+gtceu:red_garnet_dust
+gtceu:rock_salt_dust
+gtceu:rose_quartz_dust
+gtceu:ruby_dust
+gtceu:salt_dust
+gtceu:saltpeter_dust
+gtceu:sapphire_dust
+gtceu:scheelite_dust
+gtceu:silver_dust
+gtceu:soapstone_dust
+gtceu:sodalite_dust
+gtceu:spessartine_dust
+gtceu:sphalerite_dust
+gtceu:spodumene_dust
+gtceu:stibnite_dust
+gtceu:sulfur_dust
+gtceu:talc_dust
+gtceu:tantalite_dust
+gtceu:tetrahedrite_dust
+gtceu:thorium_dust
+gtceu:tin_dust
+gtceu:topaz_dust
+gtceu:tricalcium_phosphate_dust
+gtceu:trona_dust
+gtceu:tungstate_dust
+gtceu:uraninite_dust
+gtceu:vanadium_magnetite_dust
+gtceu:wulfenite_dust
+gtceu:yellow_garnet_dust
+gtceu:yellow_limonite_dust
+gtceu:zeolite_dust
+minecraft:redstone
