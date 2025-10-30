@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_olivine_dust"
+  },
+  "result": {
+    "item": "gtceu:olivine_dust"
+  },
+  "time": 200
+}

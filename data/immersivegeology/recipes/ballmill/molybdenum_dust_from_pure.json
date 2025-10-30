@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_molybdenum_dust"
+  },
+  "result": {
+    "item": "gtceu:molybdenum_dust"
+  },
+  "time": 200
+}

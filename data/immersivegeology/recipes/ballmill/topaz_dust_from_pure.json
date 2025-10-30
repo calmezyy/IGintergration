@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_topaz_dust"
+  },
+  "result": {
+    "item": "gtceu:topaz_dust"
+  },
+  "time": 200
+}

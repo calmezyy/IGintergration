@@ -1,0 +1,15 @@
+{
+  "type": "immersivegeology:gravity_separator",
+  "input": {
+    "tag": "forge:crushed_ores/tricalcium_phosphate"
+  },
+  "result": {
+    "tag": "forge:purified_ores/tricalcium_phosphate"
+  },
+  "byproduct": {
+    "tag": "tfc:rock/gravel"
+  },
+  "byproduct_chance": 0.33,
+  "time": 100,
+  "water": 100
+}

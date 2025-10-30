@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_tungstate_dust"
+  },
+  "result": {
+    "item": "gtceu:tungstate_dust"
+  },
+  "time": 200
+}

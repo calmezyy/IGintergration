@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_sphalerite_dust"
+  },
+  "result": {
+    "item": "gtceu:sphalerite_dust"
+  },
+  "time": 200
+}

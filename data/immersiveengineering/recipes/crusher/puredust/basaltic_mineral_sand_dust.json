@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "gtceu:purified_basaltic_mineral_sand_ore"
+  },
+  "result": {
+    "count": 1,
+    "item": "gtceu:pure_basaltic_mineral_sand_dust"
+  },
+  "secondaries": []
+}

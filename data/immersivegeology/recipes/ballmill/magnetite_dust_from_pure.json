@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_magnetite_dust"
+  },
+  "result": {
+    "item": "gtceu:magnetite_dust"
+  },
+  "time": 200
+}
