@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_lazurite_dust"
+  },
+  "result": {
+    "item": "gtceu:lazurite_dust"
+  },
+  "time": 200
+}

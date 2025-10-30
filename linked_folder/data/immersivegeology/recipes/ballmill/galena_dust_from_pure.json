@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_galena_dust"
+  },
+  "result": {
+    "item": "gtceu:galena_dust"
+  },
+  "time": 200
+}

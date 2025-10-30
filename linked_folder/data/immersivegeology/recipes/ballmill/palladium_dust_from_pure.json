@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_palladium_dust"
+  },
+  "result": {
+    "item": "gtceu:palladium_dust"
+  },
+  "time": 200
+}

@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_graphite_dust"
+  },
+  "result": {
+    "item": "gtceu:graphite_dust"
+  },
+  "time": 200
+}

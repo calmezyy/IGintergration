@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_yellow_garnet_dust"
+  },
+  "result": {
+    "item": "gtceu:yellow_garnet_dust"
+  },
+  "time": 200
+}

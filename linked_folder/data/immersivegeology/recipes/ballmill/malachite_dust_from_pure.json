@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_malachite_dust"
+  },
+  "result": {
+    "item": "gtceu:malachite_dust"
+  },
+  "time": 200
+}

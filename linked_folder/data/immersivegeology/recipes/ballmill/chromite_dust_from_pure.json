@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_chromite_dust"
+  },
+  "result": {
+    "item": "gtceu:chromite_dust"
+  },
+  "time": 200
+}
