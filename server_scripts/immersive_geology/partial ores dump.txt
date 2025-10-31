@@ -1,0 +1,694 @@
+== Category: Partial/Dirty Crushed Ores ==
+tfc:quern/partial_dirty_from__gtceu__raw_bauxite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bauxite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_sulfur
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sulfur> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_glauconite_sand
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_glauconite_sand> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_vanadinite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_vanadinite> * 3 x3
+immersivegeology:quern/rich_partial_dirty_crushed_ore_bauxite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bauxite> * 3 x3
+immersivegeology:quern/normal_partial_dirty_crushed_ore_bauxite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bauxite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_alumina
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_alumina> x1
+immersivegeology:quern/normal_partial_dirty_crushed_ore_thorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_almandine
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_almandine> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_powellite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_powellite> * 2 x2
+tfc:quern/partial_dirty_from__immersiveengineering__raw_silver
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_silver> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_neodymium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_neodymium> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_magnetite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_magnetite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_thorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_graphite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_graphite> * 2 x2
+tfc:quern/partial_dirty_from__ad_astra__raw_calorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_calorite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_palladium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_palladium> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_thorium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorium> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_chalcocite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcocite> x1
+tfc:quern/partial_dirty_from__minecraft__raw_copper
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_copper> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_trona
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_trona> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_scheelite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_scheelite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_pyrolusite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrolusite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_pyrochlore
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrochlore> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_acanthite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_acanthite> * 3 x3
+immersivegeology:quern/poor_partial_dirty_crushed_ore_chalcopyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcopyrite> x1
+tfc:quern/partial_dirty_from__firmalife__ore__normal_chromite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chromite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_ruby
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_ruby> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_olivine
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_olivine> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_opal
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_opal> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_bastnasite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bastnasite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_wolframite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_wolframite> x1
+immersivegeology:quern/rich_partial_dirty_crushed_ore_gypsum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_gypsum> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_monazite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_monazite> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_tetrahedrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_tetrahedrite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_lead
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lead> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_garnet_sand
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_garnet_sand> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_yellow_garnet
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_yellow_garnet> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_tricalcium_phosphate
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_tricalcium_phosphate> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_blue_topaz
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_blue_topaz> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_basaltic_mineral_sand
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_basaltic_mineral_sand> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_uraninite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_uraninite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_millerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_millerite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_platinum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_platinum> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_armalcolite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_armalcolite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_hematite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_hematite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_sapphire
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sapphire> * 2 x2
+tfc:quern/partial_dirty_from__immersiveengineering__raw_uranium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_uranium> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_native_copper
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_native_copper> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_copper
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_copper> * 3 x3
+immersivegeology:quern/normal_partial_dirty_crushed_ore_alumina
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_alumina> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_ilmenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_ilmenite> x1
+immersivegeology:quern/rich_partial_dirty_crushed_ore_pyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_magnesite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_magnesite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_oilsands
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_oilsands> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_hematite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_hematite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_molybdenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_molybdenite> * 3 x3
+immersivegeology:quern/poor_partial_dirty_crushed_ore_thorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_zeolite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_zeolite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_hematite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_hematite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_ilmenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_ilmenite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_aluminium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_aluminium> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_wolframite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_wolframite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_anatase
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_anatase> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_borax
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_borax> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_unobtania
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_unobtania> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_cassiterite_sand
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cassiterite_sand> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_unobtania
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_unobtania> x1
+tfc:quern/partial_dirty_from__gtceu__raw_scheelite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_scheelite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_chalcocite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcocite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_grossular
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_grossular> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_sphalerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sphalerite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_millerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_millerite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_chalcocite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcocite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_galena
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_galena> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_chromite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chromite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_cobaltite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cobaltite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_sodalite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sodalite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_apatite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_apatite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_chromite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chromite> * 3 x3
+immersivegeology:quern/poor_partial_dirty_crushed_ore_sphalerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sphalerite> x1
+immersivegeology:quern/rich_partial_dirty_crushed_ore_cuprite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cuprite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_quartzite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_quartzite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_lepidolite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lepidolite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_lead
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lead> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_calcite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_calcite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_topaz
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_topaz> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_tantalite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_tantalite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_fluorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_fluorite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_pitchblende
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pitchblende> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_cryolite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cryolite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_beryllium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_beryllium> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_pyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_pyrolusite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrolusite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_galena
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_galena> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_galena
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_galena> x1
+immersivegeology:quern/rich_partial_dirty_crushed_ore_sphalerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sphalerite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_coal
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_coal> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_thorianite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorianite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_pyrolusite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrolusite> * 2 x2
+tfc:quern/partial_dirty_from__tfmg__raw_lithium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lithium> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_gypsum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_gypsum> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_stibnite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_stibnite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_cassiterite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cassiterite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_thorianite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorianite> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_molybdenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_molybdenite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_pyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_gypsum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_gypsum> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_pentlandite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pentlandite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_pyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrite> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_gypsum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_gypsum> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_cuprite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cuprite> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_apatite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_apatite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_alunite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_alunite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_asbestos
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_asbestos> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_silver
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_silver> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_chalcocite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcocite> * 3 x3
+immersivegeology:quern/rich_partial_dirty_crushed_ore_ilmenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_ilmenite> * 3 x3
+immersivegeology:quern/poor_partial_dirty_crushed_ore_chromite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chromite> x1
+tfc:quern/partial_dirty_from__tfc__ore__normal_malachite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_malachite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_ilmenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_ilmenite> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_garnierite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_garnierite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_anatase
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_anatase> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_pyrolusite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrolusite> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_magnetite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_magnetite> x1
+tfc:quern/partial_dirty_from__ad_astra__raw_desh
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_desh> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_magnetite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_magnetite> * 3 x3
+immersivegeology:quern/rich_partial_dirty_crushed_ore_wolframite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_wolframite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_spessartine
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_spessartine> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_molybdenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_molybdenite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_galena
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_galena> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_pollucite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pollucite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_fullers_earth
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_fullers_earth> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_scheelite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_scheelite> * 3 x3
+immersivegeology:quern/normal_partial_dirty_crushed_ore_acanthite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_acanthite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_kyanite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_kyanite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_realgar
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_realgar> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_native_gold
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_native_gold> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_platinum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_platinum> x1
+tfc:quern/partial_dirty_from__gtceu__raw_talc
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_talc> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_vanadium_magnetite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_vanadium_magnetite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_zircon
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_zircon> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_zircon
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_zircon> x1
+tfc:quern/partial_dirty_from__gtceu__raw_nickel
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_nickel> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_cassiterite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cassiterite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_cinnabar
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cinnabar> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_rose_quartz
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_rose_quartz> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_lazurite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lazurite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_thorianite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_thorianite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_uraninite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_uraninite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_monazite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_monazite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_bentonite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bentonite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_green_sapphire
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_green_sapphire> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_uraninite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_uraninite> * 3 x3
+immersivegeology:quern/normal_partial_dirty_crushed_ore_smithsonite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_smithsonite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_vanadinite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_vanadinite> x1
+tfc:quern/partial_dirty_from__tfc__ore__normal_bismuthinite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bismuthinite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_cuprite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cuprite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_etrium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_etrium> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_granitic_mineral_sand
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_granitic_mineral_sand> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_saltpeter
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_saltpeter> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_chalcopyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcopyrite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_cobaltite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cobaltite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_scheelite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_scheelite> x1
+tfc:quern/partial_dirty_from__tfc__ore__normal_hematite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_hematite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_fluorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_fluorite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_goethite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_goethite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_soapstone
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_soapstone> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_lapis
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lapis> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_wulfenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_wulfenite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_cryolite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cryolite> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_lithium
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lithium> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_electrotine
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_electrotine> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_salt
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_salt> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_smithsonite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_smithsonite> x1
+immersivegeology:quern/normal_partial_dirty_crushed_ore_cobaltite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cobaltite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_monazite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_monazite> x1
+immersivegeology:quern/normal_partial_dirty_crushed_ore_copper
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_copper> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_fluorite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_fluorite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_naquadah
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_naquadah> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_spodumene
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_spodumene> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_anatase
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_anatase> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_apatite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_apatite> * 3 x3
+immersivegeology:quern/rich_partial_dirty_crushed_ore_cobaltite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cobaltite> * 3 x3
+immersivegeology:quern/poor_partial_dirty_crushed_ore_silver
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_silver> x1
+immersivegeology:quern/poor_partial_dirty_crushed_ore_cassiterite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cassiterite> x1
+immersivegeology:quern/normal_partial_dirty_crushed_ore_unobtania
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_unobtania> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_cobalt
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cobalt> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_bauxite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bauxite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_apatite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_apatite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_tin
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_tin> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_vanadinite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_vanadinite> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_sphalerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_sphalerite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_platinum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_platinum> * 3 x3
+immersivegeology:quern/normal_partial_dirty_crushed_ore_millerite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_millerite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_diamond
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_diamond> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_bornite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_bornite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_mica
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_mica> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_platinum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_platinum> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_cassiterite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cassiterite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_alumina
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_alumina> * 3 x3
+tfc:quern/partial_dirty_from__tfc__ore__normal_magnetite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_magnetite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_pyrope
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_pyrope> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_amethyst
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_amethyst> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_certus_quartz
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_certus_quartz> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_tungstate
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_tungstate> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_lead
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lead> x1
+tfc:quern/partial_dirty_from__immersiveengineering__raw_aluminum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_aluminum> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_emerald
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_emerald> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_cooperite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cooperite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_red_garnet
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_red_garnet> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_monazite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_monazite> * 3 x3
+immersivegeology:quern/poor_partial_dirty_crushed_ore_uraninite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_uraninite> x1
+immersivegeology:quern/rich_partial_dirty_crushed_ore_zircon
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_zircon> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_diatomite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_diatomite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_lead
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_lead> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_chalcopyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcopyrite> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_molybdenite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_molybdenite> * 2 x2
+immersivegeology:quern/rich_partial_dirty_crushed_ore_chalcopyrite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_chalcopyrite> * 3 x3
+immersivegeology:quern/rich_partial_dirty_crushed_ore_smithsonite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_smithsonite> * 3 x3
+immersivegeology:quern/rich_partial_dirty_crushed_ore_silver
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_silver> * 3 x3
+tfc:quern/partial_dirty_from__gtceu__raw_nether_quartz
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_nether_quartz> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_native_silver
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_native_silver> * 2 x2
+tfc:quern/partial_dirty_from__tfc__ore__normal_limonite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_limonite> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_acanthite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_acanthite> x1
+tfc:quern/partial_dirty_from__gtceu__raw_redstone
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_redstone> * 2 x2
+immersivegeology:quern/poor_partial_dirty_crushed_ore_copper
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_copper> x1
+tfc:quern/partial_dirty_from__gtceu__raw_molybdenum
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_molybdenum> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_barite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_barite> * 2 x2
+tfc:quern/partial_dirty_from__gtceu__raw_rock_salt
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_rock_salt> * 2 x2
+immersivegeology:quern/normal_partial_dirty_crushed_ore_cryolite
+  Input : <none>
+  Output: <item:immersivegeology:partial_dirty_crushed_ore_cryolite> * 2 x2
