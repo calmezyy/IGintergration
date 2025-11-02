@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:rich_raw_red_garnet"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_red_garnet",
+    "count": 4
+  }
+}

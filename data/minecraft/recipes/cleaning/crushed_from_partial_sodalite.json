@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_sodalite"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_sodalite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_sodalite_ore",
+    "count": 1
+  }
+}

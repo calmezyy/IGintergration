@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:raw_armalcolite"
+    },
+    {
+      "item": "gtceu:raw_armalcolite"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_armalcolite",
+    "count": 2
+  }
+}

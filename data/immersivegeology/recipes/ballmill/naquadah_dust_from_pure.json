@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_naquadah_dust"
+  },
+  "result": {
+    "item": "gtceu:naquadah_dust"
+  },
+  "time": 200
+}

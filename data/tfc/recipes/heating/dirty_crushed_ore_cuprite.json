@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:dirty_crushed_ore_cuprite" },
+  "result_fluid": { "fluid": "gtceu:copper", "amount": 80 },
+  "temperature": 1085
+}

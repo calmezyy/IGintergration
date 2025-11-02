@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:ore/poor_tetrahedrite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_tetrahedrite",
+    "count": 1
+  }
+}

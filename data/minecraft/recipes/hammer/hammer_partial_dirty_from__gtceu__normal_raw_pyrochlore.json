@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:raw_pyrochlore"
+    },
+    {
+      "item": "gtceu:raw_pyrochlore"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_pyrochlore",
+    "count": 2
+  }
+}

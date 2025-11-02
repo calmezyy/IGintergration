@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:poor_ore_cuprite" },
+  "result_fluid": { "fluid": "gtceu:copper", "amount": 24 },
+  "temperature": 1085
+}

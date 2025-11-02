@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_oilsands"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_oilsands"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_oilsands_ore",
+    "count": 1
+  }
+}

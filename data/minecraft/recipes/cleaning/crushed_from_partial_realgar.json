@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_realgar"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_realgar"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_realgar_ore",
+    "count": 1
+  }
+}

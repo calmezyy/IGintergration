@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:raw_fullers_earth"
+    },
+    {
+      "item": "gtceu:raw_fullers_earth"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_fullers_earth",
+    "count": 3
+  }
+}

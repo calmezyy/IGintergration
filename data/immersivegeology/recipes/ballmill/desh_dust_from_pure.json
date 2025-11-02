@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_desh_dust"
+  },
+  "result": {
+    "item": "gtceu:desh_dust"
+  },
+  "time": 200
+}

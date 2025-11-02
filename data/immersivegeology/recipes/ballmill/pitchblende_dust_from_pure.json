@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_pitchblende_dust"
+  },
+  "result": {
+    "item": "gtceu:pitchblende_dust"
+  },
+  "time": 200
+}

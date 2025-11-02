@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:rich_raw_sphalerite"
+    },
+    {
+      "item": "gtceu:rich_raw_sphalerite"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_sphalerite",
+    "count": 3
+  }
+}

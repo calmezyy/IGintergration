@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:rich_ore_cuprite" },
+  "result_fluid": { "fluid": "gtceu:copper", "amount": 48 },
+  "temperature": 1085
+}

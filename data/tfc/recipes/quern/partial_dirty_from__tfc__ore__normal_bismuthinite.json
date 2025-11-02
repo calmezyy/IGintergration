@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:ore/normal_bismuthinite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_bismuth",
+    "count": 2
+  }
+}

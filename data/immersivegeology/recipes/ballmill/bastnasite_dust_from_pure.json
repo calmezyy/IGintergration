@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_bastnasite_dust"
+  },
+  "result": {
+    "item": "gtceu:bastnasite_dust"
+  },
+  "time": 200
+}

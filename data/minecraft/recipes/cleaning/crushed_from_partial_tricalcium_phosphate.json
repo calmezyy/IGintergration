@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_tricalcium_phosphate"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_tricalcium_phosphate"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_tricalcium_phosphate_ore",
+    "count": 1
+  }
+}

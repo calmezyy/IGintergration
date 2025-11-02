@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "create:crushed_raw_lead"
+  },
+  "result": {
+    "count": 1,
+    "item": "gtceu:pure_lead_dust"
+  },
+  "secondaries": []
+}

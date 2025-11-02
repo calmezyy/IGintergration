@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_soapstone"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_soapstone",
+    "count": 3
+  }
+}

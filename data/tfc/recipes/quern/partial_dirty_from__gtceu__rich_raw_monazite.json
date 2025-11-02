@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:rich_raw_monazite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_monazite",
+    "count": 4
+  }
+}

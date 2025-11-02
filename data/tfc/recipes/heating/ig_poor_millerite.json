@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:poor_ore_millerite" },
+  "result_fluid": { "fluid": "gtceu:nickel", "amount": 24 },
+  "temperature": 1455
+}

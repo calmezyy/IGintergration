@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:poor_raw_molybdenum"
+    },
+    {
+      "item": "gtceu:poor_raw_molybdenum"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_molybdenum",
+    "count": 1
+  }
+}

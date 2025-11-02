@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_glauconite_sand"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_glauconite_sand"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_glauconite_sand_ore",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:rich_raw_cooperite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_cooperite",
+    "count": 3
+  }
+}

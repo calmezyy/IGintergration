@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_palladium"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_palladium"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_palladium_ore",
+    "count": 1
+  }
+}

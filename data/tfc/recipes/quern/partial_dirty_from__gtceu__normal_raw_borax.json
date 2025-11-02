@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_borax"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_borax",
+    "count": 2
+  }
+}

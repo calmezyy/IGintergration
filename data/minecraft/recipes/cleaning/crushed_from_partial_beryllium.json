@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_beryllium"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_beryllium"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_beryllium_ore",
+    "count": 1
+  }
+}

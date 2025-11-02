@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_molybdenite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_molybdenite",
+    "count": 2
+  }
+}

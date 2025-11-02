@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_sulfur"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_sulfur"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_sulfur_ore",
+    "count": 1
+  }
+}

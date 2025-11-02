@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_fullers_earth"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_fullers_earth"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_fullers_earth_ore",
+    "count": 1
+  }
+}

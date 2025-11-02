@@ -1,0 +1,15 @@
+{
+  "type": "ae2:transform",
+  "ingredient": {
+    "item": "immersivegeology:dirty_crushed_ore_etrium"
+  },
+  "result": {
+    "item": "immersivegeology:partial_crushed_ore_etrium"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

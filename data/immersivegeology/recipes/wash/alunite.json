@@ -1,0 +1,15 @@
+{
+  "type": "immersivegeology:gravity_separator",
+  "input": {
+    "tag": "forge:crushed_ores/alunite"
+  },
+  "result": {
+    "tag": "forge:purified_ores/alunite"
+  },
+  "byproduct": {
+    "tag": "tfc:rock/gravel"
+  },
+  "byproduct_chance": 0.33,
+  "time": 100,
+  "water": 100
+}

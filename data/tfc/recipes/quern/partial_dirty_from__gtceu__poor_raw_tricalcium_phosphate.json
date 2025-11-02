@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:poor_raw_tricalcium_phosphate"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_tricalcium_phosphate",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_trona"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_trona"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_trona_ore",
+    "count": 1
+  }
+}

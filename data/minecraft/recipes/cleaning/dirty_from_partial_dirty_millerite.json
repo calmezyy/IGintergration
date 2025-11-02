@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_millerite"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_millerite"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:dirty_crushed_ore_millerite",
+    "count": 1
+  }
+}

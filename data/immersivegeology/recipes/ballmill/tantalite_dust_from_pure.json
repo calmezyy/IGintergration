@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_tantalite_dust"
+  },
+  "result": {
+    "item": "gtceu:tantalite_dust"
+  },
+  "time": 200
+}

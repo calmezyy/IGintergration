@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_desh"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_desh",
+    "count": 2
+  }
+}

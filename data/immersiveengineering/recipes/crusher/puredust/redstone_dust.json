@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "gtceu:purified_redstone_ore"
+  },
+  "result": {
+    "count": 1,
+    "item": "gtceu:pure_redstone_dust"
+  },
+  "secondaries": []
+}

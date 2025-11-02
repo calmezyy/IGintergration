@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:poor_raw_pyrochlore"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_pyrochlore",
+    "count": 1
+  }
+}

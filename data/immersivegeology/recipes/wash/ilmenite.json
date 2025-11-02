@@ -1,0 +1,15 @@
+{
+  "type": "immersivegeology:gravity_separator",
+  "input": {
+    "tag": "forge:crushed_ores/ilmenite"
+  },
+  "result": {
+    "tag": "forge:purified_ores/ilmenite"
+  },
+  "byproduct": {
+    "tag": "tfc:rock/gravel"
+  },
+  "byproduct_chance": 0.33,
+  "time": 100,
+  "water": 100
+}

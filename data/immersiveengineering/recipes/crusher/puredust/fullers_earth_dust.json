@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "item": "gtceu:purified_fullers_earth_ore"
+  },
+  "result": {
+    "count": 1,
+    "item": "gtceu:pure_fullers_earth_dust"
+  },
+  "secondaries": []
+}
