@@ -1,6 +1,6 @@
 // kubejs/startup_scripts/ig_partial_crushed_items.js
 // Registers both Partial Dirty Crushed and Partial Crushed Ore items
-// Extended to include materials found in 🪨 forge:raw_materials
+// Extended to include materials found in ?? forge:raw_materials
 // ES5-safe (no let/const/arrow)
 
 StartupEvents.registry('item', function (event) {
@@ -60,26 +60,52 @@ StartupEvents.registry('item', function (event) {
   for (var i = 0; i < igOnly.length; i++) addKey(igOnly[i]);
   for (var j = 0; j < rawKeys.length; j++) addKey(rawKeys[j]);
 
+  // --- Normalization overrides for naming consistency ---
+  // Map special/historical names to your canonical IDs.
+  var oreAliases = {
+    native_gold: 'gold',
+    native_silver: 'silver',
+    native_copper: 'copper',
+    bismuthinite: 'bismuth'
+  };
+
+  function alias(ore) {
+    return oreAliases[ore] || ore;
+  }
+
   // Helper to make a nicer display name: underscores -> spaces, Title Case
   function prettyName(key) {
     var s = String(key).replace(/_/g, ' ');
     return s.charAt(0).toUpperCase() + s.slice(1);
   }
 
+  // After aliasing, avoid duplicate registrations (e.g., copper + native_copper)
+  var emitted = {};
+
   for (var k = 0; k < ores.length; k++) {
-    var ore = ores[k];
-    var proper = prettyName(ore);
+    var raw = ores[k];
+    var norm = alias(raw);
+
+    if (emitted[norm]) {
+      continue; // skip duplicate canonical IDs
+    }
+    emitted[norm] = true;
+
+    var proper = prettyName(norm);
 
     // Partial Dirty Crushed Ore
-    event.create('immersivegeology:partial_dirty_crushed_ore_' + ore)
-      .texture('immersivegeology:item/dirty_crushed_ore_' + ore) // may not exist for all keys yet
+    event.create('immersivegeology:partial_dirty_crushed_ore_' + norm)
+      .texture('immersivegeology:item/dirty_crushed_ore_' + norm) // may not exist for all keys yet
       .displayName('Partial Dirty Crushed ' + proper + ' Ore');
 
     // Partial Clean Crushed Ore
-    event.create('immersivegeology:partial_crushed_ore_' + ore)
-      .texture('immersivegeology:item/crushed_ore_' + ore) // may not exist for all keys yet
+    event.create('immersivegeology:partial_crushed_ore_' + norm)
+      .texture('immersivegeology:item/crushed_ore_' + norm) // may not exist for all keys yet
       .displayName('Partial Crushed ' + proper + ' Ore');
   }
 
-  console.info('[Immersive Geology] Registered partial dirty & clean crushed ores: ' + ores.length);
+  var count = 0;
+  for (var k2 in emitted) if (emitted.hasOwnProperty(k2)) count++;
+
+  console.info('[Immersive Geology] Registered partial dirty & clean crushed ores: ' + count);
 });
