@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_armalcolite_dust"
+  },
+  "result": {
+    "item": "gtceu:armalcolite_dust"
+  },
+  "time": 200
+}

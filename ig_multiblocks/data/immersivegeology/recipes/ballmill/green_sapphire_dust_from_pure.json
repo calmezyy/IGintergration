@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_green_sapphire_dust"
+  },
+  "result": {
+    "item": "gtceu:green_sapphire_dust"
+  },
+  "time": 200
+}

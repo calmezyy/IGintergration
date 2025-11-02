@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_cassiterite_sand"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_cassiterite_sand"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_cassiterite_sand_ore",
+    "count": 1
+  }
+}

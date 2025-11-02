@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_ilmenite"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_ilmenite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_ilmenite_ore",
+    "count": 1
+  }
+}

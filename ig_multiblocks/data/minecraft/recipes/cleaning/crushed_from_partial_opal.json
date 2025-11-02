@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_opal"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_opal"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_opal_ore",
+    "count": 1
+  }
+}

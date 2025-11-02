@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_tungstate"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_tungstate"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_tungstate_ore",
+    "count": 1
+  }
+}

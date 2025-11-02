@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:rich_raw_basaltic_mineral_sand"
+    },
+    {
+      "item": "gtceu:rich_raw_basaltic_mineral_sand"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_basaltic_mineral_sand",
+    "count": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_redstone"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_redstone",
+    "count": 2
+  }
+}

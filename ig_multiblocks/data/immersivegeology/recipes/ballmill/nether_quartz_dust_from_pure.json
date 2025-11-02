@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_nether_quartz_dust"
+  },
+  "result": {
+    "item": "gtceu:nether_quartz_dust"
+  },
+  "time": 200
+}

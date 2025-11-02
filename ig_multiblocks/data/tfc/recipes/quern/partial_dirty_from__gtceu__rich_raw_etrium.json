@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:rich_raw_etrium"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_etrium",
+    "count": 3
+  }
+}

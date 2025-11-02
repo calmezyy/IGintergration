@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_beryllium_dust"
+  },
+  "result": {
+    "item": "gtceu:beryllium_dust"
+  },
+  "time": 200
+}

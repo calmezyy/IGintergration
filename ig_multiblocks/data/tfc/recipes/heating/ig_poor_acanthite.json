@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:poor_ore_acanthite" },
+  "result_fluid": { "fluid": "gtceu:silver", "amount": 24 },
+  "temperature": 961
+}

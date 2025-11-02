@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:normal_ore_acanthite" },
+  "result_fluid": { "fluid": "gtceu:silver", "amount": 36 },
+  "temperature": 961
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:poor_raw_lead"
+    },
+    {
+      "item": "gtceu:poor_raw_lead"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_lead",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_armalcolite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_armalcolite",
+    "count": 2
+  }
+}

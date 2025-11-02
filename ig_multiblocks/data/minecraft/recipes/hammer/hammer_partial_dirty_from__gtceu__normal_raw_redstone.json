@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:raw_redstone"
+    },
+    {
+      "item": "gtceu:raw_redstone"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_redstone",
+    "count": 2
+  }
+}

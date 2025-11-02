@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_pollucite"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_pollucite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_pollucite_ore",
+    "count": 1
+  }
+}

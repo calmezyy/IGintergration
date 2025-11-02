@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_red_garnet"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_red_garnet"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_red_garnet_ore",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_zeolite_dust"
+  },
+  "result": {
+    "item": "gtceu:zeolite_dust"
+  },
+  "time": 200
+}

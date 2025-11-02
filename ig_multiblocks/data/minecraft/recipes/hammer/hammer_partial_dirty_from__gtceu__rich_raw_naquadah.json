@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:rich_raw_naquadah"
+    },
+    {
+      "item": "gtceu:rich_raw_naquadah"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_naquadah",
+    "count": 3
+  }
+}

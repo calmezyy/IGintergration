@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_tantalite"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_tantalite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_tantalite_ore",
+    "count": 1
+  }
+}

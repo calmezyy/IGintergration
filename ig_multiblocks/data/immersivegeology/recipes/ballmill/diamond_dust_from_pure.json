@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_diamond_dust"
+  },
+  "result": {
+    "item": "gtceu:diamond_dust"
+  },
+  "time": 200
+}

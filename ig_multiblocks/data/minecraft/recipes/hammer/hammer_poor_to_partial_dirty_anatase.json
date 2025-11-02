@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:poor_ore_anatase"
+    },
+    {
+      "item": "immersivegeology:poor_ore_anatase"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_anatase",
+    "count": 1
+  }
+}

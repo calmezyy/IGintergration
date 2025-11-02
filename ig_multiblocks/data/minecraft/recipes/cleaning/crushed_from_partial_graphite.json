@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_graphite"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_graphite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_graphite_ore",
+    "count": 1
+  }
+}

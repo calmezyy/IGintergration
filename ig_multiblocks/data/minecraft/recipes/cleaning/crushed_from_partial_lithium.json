@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_lithium"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_lithium"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_lithium_ore",
+    "count": 1
+  }
+}

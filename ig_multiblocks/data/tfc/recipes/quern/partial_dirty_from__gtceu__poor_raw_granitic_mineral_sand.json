@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:poor_raw_granitic_mineral_sand"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_granitic_mineral_sand",
+    "count": 1
+  }
+}

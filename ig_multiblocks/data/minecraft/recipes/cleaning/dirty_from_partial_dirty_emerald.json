@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_emerald"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_emerald"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_emerald_ore",
+    "count": 1
+  }
+}

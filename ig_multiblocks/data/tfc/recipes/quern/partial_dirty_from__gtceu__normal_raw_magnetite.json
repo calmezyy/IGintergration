@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_magnetite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_magnetite",
+    "count": 2
+  }
+}

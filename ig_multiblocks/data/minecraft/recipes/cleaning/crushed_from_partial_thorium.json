@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_thorium"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_thorium"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_thorium_ore",
+    "count": 1
+  }
+}

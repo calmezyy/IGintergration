@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_quartzite"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_quartzite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_quartzite_ore",
+    "count": 1
+  }
+}

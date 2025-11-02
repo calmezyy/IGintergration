@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_cooperite"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_cooperite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_cooperite_ore",
+    "count": 1
+  }
+}

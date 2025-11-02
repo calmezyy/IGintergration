@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:raw_glauconite_sand"
+    },
+    {
+      "item": "gtceu:raw_glauconite_sand"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_glauconite_sand",
+    "count": 3
+  }
+}

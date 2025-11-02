@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:raw_pyrite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_pyrite",
+    "count": 2
+  }
+}

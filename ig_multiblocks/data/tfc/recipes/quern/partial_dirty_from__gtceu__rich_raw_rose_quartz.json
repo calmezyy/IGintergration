@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:rich_raw_rose_quartz"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_rose_quartz",
+    "count": 3
+  }
+}

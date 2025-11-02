@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_magnesite"
+    },
+    {
+      "item": "immersivegeology:partial_dirty_crushed_ore_magnesite"
+    }
+  ],
+  "result": {
+    "item": "gtceu:crushed_magnesite_ore",
+    "count": 1
+  }
+}

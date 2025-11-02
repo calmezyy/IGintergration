@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:poor_raw_thorium"
+    },
+    {
+      "item": "gtceu:poor_raw_thorium"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_thorium",
+    "count": 1
+  }
+}

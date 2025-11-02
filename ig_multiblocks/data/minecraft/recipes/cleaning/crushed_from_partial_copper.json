@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_copper"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_copper"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_copper_ore",
+    "count": 1
+  }
+}

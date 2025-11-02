@@ -1,0 +1,11 @@
+{
+  "type": "immersivegeology:ballmill",
+  "energy": 16000,
+  "input": {
+    "item": "gtceu:pure_coal_dust"
+  },
+  "result": {
+    "item": "gtceu:coal_dust"
+  },
+  "time": 200
+}

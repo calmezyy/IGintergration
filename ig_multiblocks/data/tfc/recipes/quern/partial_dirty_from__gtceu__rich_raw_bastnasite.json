@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "gtceu:rich_raw_bastnasite"
+  },
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_bastnasite",
+    "count": 2
+  }
+}

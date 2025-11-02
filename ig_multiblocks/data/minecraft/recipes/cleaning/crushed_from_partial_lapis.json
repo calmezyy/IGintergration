@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersivegeology:partial_crushed_ore_lapis"
+    },
+    {
+      "item": "immersivegeology:partial_crushed_ore_lapis"
+    }
+  ],
+  "result": {
+    "item": "gtceu:purified_lapis_ore",
+    "count": 1
+  }
+}

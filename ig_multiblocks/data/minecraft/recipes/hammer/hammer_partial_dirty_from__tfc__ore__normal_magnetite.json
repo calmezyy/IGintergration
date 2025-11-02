@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc__ore:normal_magnetite"
+    },
+    {
+      "item": "tfc__ore:normal_magnetite"
+    },
+    {
+      "tag": "forge:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersivegeology:partial_dirty_crushed_ore_magnetite",
+    "count": 2
+  }
+}

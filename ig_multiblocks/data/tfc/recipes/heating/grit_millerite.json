@@ -1,0 +1,6 @@
+{
+  "type": "tfc:heating",
+  "ingredient": { "item": "immersivegeology:grit_millerite" },
+  "result_fluid": { "fluid": "gtceu:nickel", "amount": 120 },
+  "temperature": 1455
+}
