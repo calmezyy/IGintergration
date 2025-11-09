@@ -35,4 +35,15 @@ StartupEvents.registry('block', function (event) {
 		.model('minecraft:block/cube_all')
 		.textureAll('immersivegeology:textures/block/static_block/refractory_brick');	//broken texture rn
 	
+	event.create('engineering')
+		.displayName('Crude Engineering Block')
+		.material('stone')
+		.hardness(4.0)
+		.resistance(12.0)
+		.requiresTool(true)
+		.tagBlock('minecraft:mineable/pickaxe')
+		.tagBlock('minecraft:needs_iron_tool')
+		.model('minecraft:block/cube_all')
+		.textureAll('immersivegeology:textures/block/static_block/refractory_brick');	//broken texture rn
+	
 });
