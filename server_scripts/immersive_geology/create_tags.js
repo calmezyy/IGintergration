@@ -247,3 +247,33 @@ ServerEvents.tags('item', function (event) {
     'gtceu:uraninite_dust'
   ]);
 });
+
+ServerEvents.tags('item', function (event) {
+  // This will create forge:powders/magnetite if it doesn't exist
+  event.add('forge:powders/magnetite', [
+    'immersivegeology:powder_magnetite',
+    'gtceu:magnetite_dust'
+  ]);
+});
+
+ServerEvents.tags('item', function (event) {
+  // This will create forge:crushed_ore/lead if it doesn't exist
+  event.add('forge:crushed_ore/lead', [
+    'immersivegeology:crushed_ore_lead',
+    'create:crushed_raw_lead'
+  ]);
+});
+
+ServerEvents.tags('item', function (event) {
+  // This will create forge:crushed_ore/magnetite if it doesn't exist
+  event.add('forge:crushed_ore/magnetite', [
+    'immersivegeology:crushed_ore_magnetite',
+    'gtceu:purified_magnetite_ore'
+  ]);
+});
+
+
+ServerEvents.tags('item', function (event) {
+  // --- Add item(s) to tag ---
+  event.add('forge:dusts/lead', 'gtceu:galena_dust');
+});
